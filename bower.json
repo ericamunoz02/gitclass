@@ -1,21 +1,19 @@
 {
-  "name": "emergtech",
-  "version": "0.0.1",
-  "authors": [
-    "erica munoz”
-  ],
-  "description": "bower first project“,
-  "main": "index.html",
-  "keywords": [
-    "bower”,
-    ”jquery”
-  ],
-  "license": "MIU”,
+  "name": "ericamunoz",
+  "version": "0.0.0",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "vendors",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "waypoints": "~3.1.1",
+    "mixitup": "~2.1.9",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
 }
